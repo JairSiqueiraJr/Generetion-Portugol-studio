@@ -1,8 +1,16 @@
 programa
 {
+	/*
+	A prefeitura de uma cidade fez uma pesquisa entre 20 de seus habitantes,
+	coletando dados sobre o salário e número de filhos. A prefeitura deseja saber:  
+	a) média do salário da população;
+	b) média do número de filhos;
+	c) maior salário;
+	d) percentual de pessoas com salário até R$100,00.
 	
+	*/
 	funcao inicio()
-	{	real mediaSalario,salario,  mediaFilhos, maiorSalario
+	{	real mediaSalario,salario,  mediaFilhos, maiorSalario
 		inteiro i, qtdePessoas, mediaPopulacao, qtdeFilhos, contCadastro, pencentual,pen100
 		i = 0
 		pen100 = 0
@@ -42,14 +50,14 @@ programa
 		 escreva("|Média de filhos da população: " + mediaFilhos + "|\n")
 		 escreva("|O maior salario é: " + maiorSalario + "|\n")
 		 escreva("| O Pencentual de pessoas que recebem até R$ 100 reais são: " +pencentual+"%\n" )
-	}	
+	}	
 }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1085; 
+ * @POSICAO-CURSOR = 309; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
